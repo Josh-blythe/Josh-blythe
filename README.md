@@ -1,16 +1,24 @@
-## Hi there 👋
+### Hey, I'm Josh
 
-<!--
-**Josh-blythe/Josh-blythe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+FTSE 100 cybersecurity professional building tooling for multimodal prompt injection detection. If you can break it, I want to know how.
 
-Here are some ideas to get you started:
+First-class Computer Science graduate from a top 10 UK university, specialising in AI, cybersecurity and cryptography. Now applying that to the problem of securing LLM applications at [Bordair](https://bordair.io).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**What I'm building:**
+- [Bordair](https://bordair.io) - a prompt injection detection API that scans LLM inputs in <100ms
+- Three-stage gated pipeline: regex fast-reject → fast-accept → ONNX INT8 DistilBERT classifier
+- Trained on 1M+ labelled examples with hand-crafted and research supported hard negatives
+- Dual-region AWS (London + Virginia) with latency-based routing
+- [Bordair's Castle](https://castle.bordair.io) - a prompt injection challenge game that doubles as a live red team
+
+**What I care about:**
+- OWASP LLM Top 10 (especially LLM01: Prompt Injection)
+- Adversarial ML - encoded payloads, semantic attacks, multi-turn jailbreaks
+- Making AI security accessible to solo developers, not just enterprises
+
+**Get in touch:**
+- Try breaking my detector: [castle.bordair.io](https://castle.bordair.io)
+- API docs: [bordair.io](https://bordair.io)
+- Email: [hello@bordair.io](mailto:hello@bordair.io)
+- `pip install bordair`
+- `npm install bordair` 
