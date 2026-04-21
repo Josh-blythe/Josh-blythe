@@ -5,8 +5,8 @@ FTSE 100 cybersecurity professional building tooling for multimodal prompt injec
 First-class Computer Science graduate from a top 10 UK university, specialising in AI, cybersecurity and cryptography. Now applying that to the problem of securing LLM applications at [Bordair](https://bordair.io).
 
 **What I'm building:**
-- [Bordair](https://bordair.io) - a prompt injection detection API that scans LLM inputs in <100ms
-- Three-stage gated pipeline: regex fast-reject → fast-accept → ONNX INT8 DistilBERT classifier
+- [Bordair](https://bordair.io) - a prompt injection detection API that scans LLM inputs in <50ms
+- Three-stage gated pipeline: regex fast-reject → fast-accept → ONNX INT8 Transformer classifier
 - Trained on 1M+ labelled examples with hand-crafted and research supported hard negatives
 - Dual-region AWS (London + Virginia) with latency-based routing
 - [Bordair's Castle](https://castle.bordair.io) - a prompt injection challenge game that doubles as a live red team
